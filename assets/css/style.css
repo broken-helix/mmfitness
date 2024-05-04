@@ -1,5 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
 h1, h2, h3 {
     text-align: center;
+}
+
+/* Main Image */
+
+#main-image {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+#image-text1 {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 0 20px;
+}
+
+#image-text1 > h1 {
+    font-size: 8rem;
+}
+
+#image-text2 {
+    position: absolute;
+    top: 38%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 0 20px;
+}
+
+#image-text2 > h2 {
+    font-size: 4rem;
+}
+
+#image-text3 {
+    position: absolute;
+    top: 51%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 0 20px;
+}
+
+#image-text3 > h1 {
+    font-size: 8rem;
 }
 
 /* About Section */
@@ -7,6 +61,7 @@ h1, h2, h3 {
 #about-container {
     display: flex;
     flex-direction: row;
+    background-color: black;
 }
 
 #about-image {
@@ -28,6 +83,7 @@ h1, h2, h3 {
     flex-direction: column;
     width: 50%;
     justify-content: center;
+    color: white;
 }
 
 @media only screen and (max-width: 600px) {
@@ -42,5 +98,125 @@ h1, h2, h3 {
 
     #about-text {
         width: 100%;
+    }
+}
+
+@media only screen and (max-width: 1576px) {
+    #image-text1 > h1 {
+        font-size: 7rem;
+    }
+    #image-text2 > h2 {
+        font-size: 3rem;
+    }
+    #image-text3 > h1 {
+        font-size: 7rem;
+    }
+}
+
+@media only screen and (max-width: 1388px) {
+    #image-text1 > h1 {
+        font-size: 6rem;
+    }
+    #image-text2 > h2 {
+        font-size: 2.5rem;
+    }
+    #image-text3 > h1 {
+        font-size: 6rem;
+    }
+}
+
+@media only screen and (max-width: 1202px) {
+    #image-text1 > h1 {
+        font-size: 5rem;
+    }
+    #image-text2 > h2 {
+        font-size: 2rem;
+    }
+    #image-text3 > h1 {
+        font-size: 5rem;
+    }
+}
+
+@media only screen and (max-width: 1014px) {
+    #image-text1 > h1 {
+        font-size: 4rem;
+    }
+    #image-text2 > h2 {
+        font-size: 1.5rem;
+    }
+    #image-text3 > h1 {
+        font-size: 4rem;
+    }
+}
+
+@media only screen and (max-width: 828px) {
+    #image-text1 > h1 {
+        font-size: 3rem;
+    }
+    #image-text2 > h2 {
+        font-size: 1.5rem;
+    }
+    #image-text3 > h1 {
+        font-size: 3rem;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    #image-text1 > h1 {
+        font-size: 2rem;
+    }
+    #image-text2 > h2 {
+        font-size: 1.25rem;
+    }
+    #image-text3 > h1 {
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    #image-text1 > h1 {
+        font-size: 1.5rem;
+    }
+    #image-text2 > h2 {
+        font-size: 0.75rem;
+    }
+    #image-text3 > h1 {
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    #image-text1 > h1 {
+        font-size: 1.25rem;
+    }
+    #image-text2 > h2 {
+        font-size: 0.75rem;
+    }
+    #image-text3 > h1 {
+        font-size: 1.25rem;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    #image-text1 > h1 {
+        font-size: 1rem;
+    }
+    #image-text2 > h2 {
+        font-size: 0.75rem;
+    }
+    #image-text3 > h1 {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    #image-text1 > h1 {
+        font-size: 0.75rem;
+    }
+    #image-text2 > h2 {
+        font-size: 0.5rem;
+    }
+    #image-text3 > h1 {
+        font-size: 0.75rem;
     }
 }
