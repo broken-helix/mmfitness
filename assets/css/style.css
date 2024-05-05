@@ -56,6 +56,28 @@ h1, h2, h3 {
     font-size: 8rem;
 }
 
+/* Services Section */
+
+#services {
+    min-height: 100vh;
+}
+
+#service-container {
+    display: flex;
+}
+
+.service-box {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.inner-service-box {
+    width: 70%;
+    border: solid 1px red;
+    aspect-ratio: 1 / 1;
+}
+
 /* About Section */
 
 #about-container {
